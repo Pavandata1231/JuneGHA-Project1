@@ -9,8 +9,8 @@ on:
       - main
       - release-*
   workflow_dispatch:
-  schedule:
-    - cron: '0 9 * * *' # Runs every day at 9 UTC
+  # schedule:
+  #   - cron: '0 9 * * *' # Runs every day at 9 UTC
 jobs:
   first-job:
     runs-on: ubuntu-latest
